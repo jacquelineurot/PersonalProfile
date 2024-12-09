@@ -1,0 +1,63 @@
+@font-face {
+    font-family: surf;
+    src: url(Surfing\ Capital.ttf);
+}
+@font-face {
+    font-family:heavitas;
+    src: url(Heavitas.ttf);
+}
+@font-face {
+    font-family: creato;
+    src: url(CreatoDisplay-Light.otf);
+}
+nav{
+    margin-left: 4%;
+    margin-top:1%;
+    font-family: akira;
+    font-size: 90%;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(224, 192, 143),rgba(47, 31, 7, 0.892));    
+}
+.text{
+    text-align: right;
+    margin-right: 4%;
+    margin-left: 45%;
+    margin-top: 13%;
+}
+h3{
+    font-size: 450%;
+    font-family: surf;
+    font-weight: lighter;
+}
+h4{
+    font-size: 220%;
+    font-weight: lighter;
+    font-family: heavitas;
+}
+h5{
+    font-family: heavitas;
+    font-weight: lighter;
+}
+p{
+    font-size:100%;
+    font-family: creato;
+    font-weight: 50;
+}
+button{
+    color: white;
+    background-color: none;
+}
+@media screen and(min-width:1024px){
+    nav{
+        font-size: 100%;
+    }
+    h3{
+        font-size: 70px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
